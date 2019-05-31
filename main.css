@@ -1,0 +1,59 @@
+* {
+  font-family: "Lato", sans-serif;
+
+}
+
+body {
+  background-color: #F8FAFC;
+}
+
+
+.progress-trackers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-tracker span {
+  padding: 10px 15px;
+  background: #8795a1;
+  color: white;
+  border-radius: 50%;
+  font-size: 21px;
+  width: 20px;
+  text-align: center;
+}
+
+.progress-tracker h2 {
+  text-transform: uppercase;
+  color: #8795a1;
+  font-size: 16px;
+  text-align: center;
+}
+
+.active-tracker {
+  color: #3182ce;
+}
+
+.active-tracker span {
+  background: #3182ce;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 50px;
+  padding: 50px;
+  border: 10px, black;
+  justify-content: center;
+  text-align: left;
+}
+
+
